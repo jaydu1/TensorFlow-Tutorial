@@ -1,19 +1,19 @@
 # Content
 
-1. [通过 Anaconda 安装 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#1-%E9%80%9A%E8%BF%87-anaconda-%E5%AE%89%E8%A3%85-tensorflow)
-    1. [安装 Anaconda](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#11%E5%AE%89%E8%A3%85-anaconda)
-    2. [创建虚拟环境（可选）](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#12%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E5%8F%AF%E9%80%89)
-    3. [安装 CPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#13%E5%AE%89%E8%A3%85-cpu-%E7%89%88-tensorflow)
-    4. [安装 GPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#14%E5%AE%89%E8%A3%85-gpu-%E7%89%88-tensorflow)
-    5. [便捷安装方法](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#15%E4%BE%BF%E6%8D%B7%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95)
-2. [通过 pip 安装 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#2%E9%80%9A%E8%BF%87-pip-%E5%AE%89%E8%A3%85-tensorflow)
-    1. [安装 Python 开发环境](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#21%E5%AE%89%E8%A3%85-python-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)
-    2. [创建虚拟环境（可选）](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#22%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E5%8F%AF%E9%80%89)
-    3. [安装 CPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#23%E5%AE%89%E8%A3%85-cpu-%E7%89%88-tensorflow)
-    4. [安装 GPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#24%E5%AE%89%E8%A3%85-gpu-%E7%89%88-tensorflow)
-        1. [安装 CUDA](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#241%E5%AE%89%E8%A3%85-cuda)
-        2. [安装 cuDNN](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#242%E5%AE%89%E8%A3%85-cudnn)
-        3. [安装 GPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#243%E5%AE%89%E8%A3%85-gpu-%E7%89%88-tensorflow)
+* [1 通过 Anaconda 安装 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#1-%E9%80%9A%E8%BF%87-anaconda-%E5%AE%89%E8%A3%85-tensorflow)
+    * [1.1 安装 Anaconda](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#11%E5%AE%89%E8%A3%85-anaconda)
+    * [1.2 创建虚拟环境（可选）](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#12%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E5%8F%AF%E9%80%89)
+    * [1.3 安装 CPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#13%E5%AE%89%E8%A3%85-cpu-%E7%89%88-tensorflow)
+    * [1.4 安装 GPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#14%E5%AE%89%E8%A3%85-gpu-%E7%89%88-tensorflow)
+    * [1.5 便捷安装方法](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#15%E4%BE%BF%E6%8D%B7%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95)
+* [2 通过 pip 安装 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#2%E9%80%9A%E8%BF%87-pip-%E5%AE%89%E8%A3%85-tensorflow)
+    * [2.1 安装 Python 开发环境](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#21%E5%AE%89%E8%A3%85-python-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)
+    * [2.2 创建虚拟环境（可选）](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#22%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E5%8F%AF%E9%80%89)
+    * [2.3 安装 CPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#23%E5%AE%89%E8%A3%85-cpu-%E7%89%88-tensorflow)
+    * [2.4 安装 GPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#24%E5%AE%89%E8%A3%85-gpu-%E7%89%88-tensorflow)
+        * [2.4.1 安装 CUDA](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#241%E5%AE%89%E8%A3%85-cuda)
+        * [2.4.2 安装 cuDNN](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#242%E5%AE%89%E8%A3%85-cudnn)
+        * [2.4.3 安装 GPU 版 TensorFlow](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux#243%E5%AE%89%E8%A3%85-gpu-%E7%89%88-tensorflow)
 
 
 # 1. 通过 Anaconda 安装 TensorFlow
