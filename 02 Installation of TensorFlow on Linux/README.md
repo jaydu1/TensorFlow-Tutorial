@@ -1,5 +1,23 @@
-# 1. 通过 Anaconda 安装 TensorFlow
-## 1.1	安装 Anaconda
+# Content
+
+1. [通过 Anaconda 安装 TensorFlow](#Sec1)
+    1. [安装 Anaconda](#Sec1.1)
+    2. [创建虚拟环境（可选）](#Sec1.2)
+    3. [安装 CPU 版 TensorFlow](#Sec1.3)
+    4. [安装 GPU 版 TensorFlow](#Sec1.4)
+    5. [便捷安装方法](#Sec1.5)
+2. [通过 pip 安装 TensorFlow](#Sec2)
+    1. [安装 Python 开发环境](#Sec2.1)
+    2. [创建虚拟环境（可选）](#Sec2.2)
+    3. [安装 CPU 版 TensorFlow](#Sec2.3)
+    4. [安装 GPU 版 TensorFlow](#Sec2.4)
+        1. [安装 CUDA](#Sec2.4.1)
+        2. [安装 cuDNN](#Sec2.4.2)
+        3. [安装 GPU 版 TensorFlow](#Sec2.4.3)
+
+
+# 1. 通过 Anaconda 安装 TensorFlow<a id='Sec1'></a>
+## 1.1	安装 Anaconda<a id='Sec1.1'></a>
 Anaconda 是⼀个开源的 Python 发⾏版本，它预安装了多个常⽤ Python 包，同时也提供了 Python 环境的管理⼯具。如果需要节省磁盘空间，也可安装 Mniconda 这个较⼩的发⾏版，⾃⾏安装所需要的包。 通过 Anaconda 安装 TensorFlow ⽐较简单，并且它对 CPU 计算进⾏了优化，计算速度优于通过 pip ⽅式 安装的 TensorFlow[[1]](https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/)，建议初学者采⽤这种⽅式。
 读者需要根据系统位数下载相应版本的 Anaconda 安装包。笔者的操作平台是 Ubuntu 16.04 的 64 位 系统虚拟机，在书写本书时 Anaconda 对应的最新版本是 5.3，可能与读者阅读时的最新版本不同，读者只需安装最新版本即可。Python 也有两个版本可选，分别是 Python 2.x 和 Python 3.x，建议安装 Python 3.x 版本。
 
@@ -60,7 +78,7 @@ Anaconda 是⼀个开源的 Python 发⾏版本，它预安装了多个常⽤ Py
 
     >>> conda info
 
-## 1.2	创建虚拟环境（可选）
+## 1.2	创建虚拟环境（可选）<a id='Sec1.2'></a>
 
 安装 Anaconda 后，系统的默认 Python 环境会被替换为 Anaconda 中的 Python 环境，我们也可以 在 Anaconda 中创建其它虚拟环境，⽅便进⾏不同的任务，同时也不会对系统环境或者其它虚拟环境造成影 响。因此，推荐读者进⾏这⼀步创建⼀个虚拟环境，当然读者也可跳过该步，直接在 Anaconda 的 Python 环境下安装 TensorFlow。
 
@@ -101,7 +119,7 @@ Anaconda 是⼀个开源的 Python 发⾏版本，它预安装了多个常⽤ Py
 
     >>> conda activate tf
 
-## 1.3	安装 CPU 版 TensorFlow
+## 1.3	安装 CPU 版 TensorFlow<a id='Sec1.3'></a>
 进⼊ tf 环境后，运⾏以下指令安装 CPU 版的 TensorFlow。如果读者没有创建虚拟环境，也可以输⼊ 同样指令进⾏安装。
 
     (tf) >>> conda install tensorflow # 也可指定版本号 conda install tensorflow=1.11
@@ -121,7 +139,7 @@ Anaconda 是⼀个开源的 Python 发⾏版本，它预安装了多个常⽤ Py
     >>> python -c "import tensorflow as tf; print(tf.__version__)"
     1.11.0 # 输出 TensorFlow 版本
 
-## 1.4	安装 GPU 版 TensorFlow
+## 1.4	安装 GPU 版 TensorFlow<a id='Sec1.4'></a>
 使⽤ conda 指令安装了 CPU 版的 TensorFlow 之后，如果读者使⽤的电脑配置了可⽤于深度学习计算 的 NVIDIA GPU（计算能⼒⼤于等于 3.5，具体请根据电脑 GPU 版本号在 NVIDIA 官⽹进⾏查询[[4]](https://developer.nvidia.com/cuda-gpus)），则 可以安装 GPU 版本的 TensorFlow。使⽤ Anaconda 安装 GPU 版 TensorFlow 较为⽅便，它能够⾃动安 装相应的 NVIDIA 软件。
 
     (tf) >>> conda install tensorflow-gpu # 也可指定版本号 conda install tensorflow-gpu=1.11
@@ -157,7 +175,7 @@ Anaconda 是⼀个开源的 Python 发⾏版本，它预安装了多个常⽤ Py
 
 若⽆法正常调⽤，则有可能是系统已安装过 CUDA ⼯具，CUDA、cuDNN 与 TensorFlow 三者的 版本不对应，需要卸载后重新安装对应的版本。
 
-## 1.5	便捷安装方法
+## 1.5	便捷安装方法<a id='Sec1.5'></a>
 在前⽂，我们创建了虚拟环境并安装了 CPU 或 GPU 版本 TensorFlow，但是也可以⽤⼀条指令同时实 现这两步：
 
     # 创建虚拟环境并安装对应版本的 TensorFlow
@@ -170,8 +188,8 @@ Anaconda 是⼀个开源的 Python 发⾏版本，它预安装了多个常⽤ Py
 
     >>> conda activate tf
 
-# 2.	通过 pip 安装 TensorFlow
-## 2.1	安装 Python 开发环境
+# 2.	通过 pip 安装 TensorFlow<a id='Sec2'></a>
+## 2.1	安装 Python 开发环境<a id='Sec2.1'></a>
 我们可以通过在 Terminal 内输⼊以下指令安装 Python 开发环境, 其中 pip 是⼀个现代的，通⽤的 Python 包管理⼯具。提供了对 Python 包的查找、下载、安装、卸载的功能；virtualenv 包可以⽤于创建 独⽴的 Python 运⾏环境。
 
     >>> sudo apt update
@@ -209,7 +227,7 @@ Anaconda 是⼀个开源的 Python 发⾏版本，它预安装了多个常⽤ Py
     >>> virtualenv --version
     16.0.0
 
-## 2.2	创建虚拟环境（可选）
+## 2.2	创建虚拟环境（可选）<a id='Sec2.2'></a>
 同样地，我们建议创建虚拟环境，以免对系统环境造成影响：
 
     >>> virtualenv --system-site-packages -p python3 ./venv # 指定虚拟环境的目录 ./venv
@@ -232,7 +250,7 @@ pip 的简单⽤法如下：
 
     (venv) >>> deactivate
 
-## 2.3	安装 CPU 版 TensorFlow
+## 2.3	安装 CPU 版 TensorFlow<a id='Sec2.3'></a>
 如果读者已经创建了虚拟环境，则可⽤以下指令安装 CPU 版 TensorFlow：
 
     (venv) >>> pip install --upgrade tensorflow
@@ -250,8 +268,8 @@ pip 的简单⽤法如下：
     >>> python3 -c "import tensorflow as tf; print(tf.__version__)"
     1.11.0
 
-## 2.4	安装 GPU 版 TensorFlow
-### 2.4.1	安装 CUDA
+## 2.4	安装 GPU 版 TensorFlow<a id='Sec2.4'></a>
+### 2.4.1	安装 CUDA<a id='Sec2.4.1'></a>
 
 （一）安装 NVIDIA 库：使⽤ pip 安装 GPU 版 TensorFlow 需要先安装 NVIDIA 相关软件。⾸先依 次输⼊以下指令下载 NVIDIA Repository：
 
@@ -378,7 +396,7 @@ pip 的简单⽤法如下：
     Setting up libnvinfer4 (4.1.2-1+cuda9.0) ...
     Processing triggers for libc-bin (2.23-0ubuntu9) ...
 
-### 2.4.2	安装 cuDNN
+### 2.4.2	安装 cuDNN<a id='Sec2.4.2'></a>
 下载 cuDNN 必须注册⼀个免费的 NVIDIA 账号，读者应根据 Tensorflow 的版本以及电脑系统选择 相应的 cuDNN 版本进⾏下载[[5]](https://developer.nvidia.com/cudnn)。
 下载完成后⾸先解压⽂件：
 
@@ -391,7 +409,7 @@ pip 的简单⽤法如下：
 
 ⾄此，cuDNN 就安装完成了。
 
-### 2.4.3	安装 GPU 版 TensorFlow
+### 2.4.3	安装 GPU 版 TensorFlow<a id='Sec2.4.3'></a>
 配置好 CUDA 和 cuDNN 后，接下来就可以⽤ pip 安装 GPU 版的 TensorFlow 了。
 
     (venv) >>> pip install tensorflow-gpu
