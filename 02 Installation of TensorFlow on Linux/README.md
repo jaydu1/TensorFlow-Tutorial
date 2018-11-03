@@ -15,7 +15,7 @@ Anaconda 是⼀个开源的 Python 发⾏版本，它预安装了多个常⽤ Py
 
   （⼆）读者若使⽤图形化界⾯系统，也可以登录 Anaconda 官⽹下载页⾯[[2]](https://www.anaconda.com/download/#linux)下载系统对应的 Linux 安装 包。在⽹页上找到如图 2-1所在位置：
 
-![图2-1](img/2-1.png)
+![图2-1](../img/2-1.png)
 
 如果上述官⽅⽹址下载速度较慢，也可选择国内的清华⼤学镜像地址[[3]](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)。
 
