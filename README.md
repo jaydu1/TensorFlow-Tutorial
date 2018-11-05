@@ -4,6 +4,8 @@ This a tutorial for TensorFlow. Code is provided both in eager execution mode an
 
 *Being Updating*
 
+Recommended jupyter notebook viewer: [nbviewer](https://nbviewer.jupyter.org/)
+
 ## Content
 
 02 [Installation of TensorFlow on Linux](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/02%20Installation%20of%20TensorFlow%20on%20Linux)
