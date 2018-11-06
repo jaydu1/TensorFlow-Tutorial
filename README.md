@@ -14,6 +14,9 @@ Recommended jupyter notebook viewer: [nbviewer](https://nbviewer.jupyter.org/)
 
 10 [Recurrent Neural Network](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/10%20Recurrent%20Neural%20Network)
 
+11 [RNN on MNIST](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/11%20RNN%20on%20MNIST)
+
+
 ## Requirement
 Package | Version
 ---|---
