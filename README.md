@@ -16,6 +16,7 @@ Recommended jupyter notebook viewer: [nbviewer](https://nbviewer.jupyter.org/)
 
 11 [RNN on MNIST](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/11%20RNN%20on%20MNIST)
 
+12 [CapsNet on MNIST](https://github.com/jaydu1/TensorFlow-Tutorial/tree/master/12%20CapsNet%20on%20MNIST)
 
 ## Requirement
 Package | Version
